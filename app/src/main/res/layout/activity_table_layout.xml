@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc785"
+    android:padding="10dp">
+
+    <TableRow>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 01"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 02\nCol 01"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 02\nCol 02"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 03\nCol 01"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 03\nCol 02"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 03\nCol 03"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_weight="1"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 04\nCol 01"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+
+        <Button android:layout_weight="2"
+            android:layout_height="60dp"
+            android:background="#82acff"
+            android:layout_margin="5dp"
+            android:text="Row 04\nCol 02"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+    </TableRow>
+
+</TableLayout>
